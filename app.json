@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Sigmaclone",
-    "slug": "Sigmaclone",
+    "slug": "sigma-clone2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -38,11 +38,18 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cc29111d-8aaf-4945-9eab-358e4eab2008"
+      }
+    },
+    "owner": "dev.charu"
   }
 }
